@@ -1,73 +1,190 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 
-	<head>
-	      <title> Web Finanzas de un país</title>
-	      <font face="Arial">
-             <meta charset="utf-8">  
-	</head>
+<head>
+    <meta charset="utf-8">
+    <title>Web Finanzas de un país</title>
+</head>
 
-	<body style="background-color:#0B1F3A;">
-		<button onclick="abrirMenu()">☰</button>
+<body style="background-color:#0B1F3A; font-family:Arial;">
 
-<div id="menu" style="position:fixed; top:0; left:-250px; width:250px; height:100%; background:#333; color:white; transition:0.3s; padding:10px;">
+    <button onclick="abrirMenu()">☰</button>
 
-<button onclick="cerrarMenu()" style="position:absolute; top:10px; right:10px; color:white; background:none; border:none; font-size:20px;">
-X
-</button>
+    <div id="menu"
+        style="position:fixed; top:0; left:-250px; width:250px; height:100%; background:#333; color:white; transition:0.3s; padding:10px;">
 
-<a href="#tema1">Finanzas públicas y fuentes de ingreso</a><br><br>
-<a href="#tema2">Gasto público, presupuesto y déficit fiscal</a><br><br>
-<a href="#tema3">Deuda pública y estabilidad económica</a><br><br>
-<a href="#tema4">Transparencia y rendición de cuentas</a>
+        <button onclick="cerrarMenu()"
+            style="position:absolute; top:10px; right:10px; color:white; background:none; border:none; font-size:20px;">
+            X
+        </button>
 
-</div>
+        <br><br>
 
-               		<img src="https://correobuap-my.sharepoint.com/personal/hm202557949_alm_buap_mx/Documents/P%C3%A1gina%20WEB%20Finanzas%20de%20un%20pa%C3%ADs/foto1.jpeg"width="60%" width="100%"/>
-		<h1 style="color:#FFD54F; font-size: 50px;" align="center">Finanzas de un país</h1> 
-		<h2 style="color:#FFD54F;" align="center">Sebastián José Hoyte Martínez</h2>
-			<br/><br/>
-		<h3 id="tema1" style="color:#FFD54F; font-size: 50px;" align="center">Finanzas públicas y fuentes de ingreso</h3>
-		<p style="color:white; font-size: 30px;" aling= "center"> Finanzas públicas y fuentes de ingreso
-Las finanzas públicas son el conjunto de actividades mediante las cuales el gobierno obtiene, administra y utiliza los recursos económicos de un país para satisfacer las necesidades de la población.
-Los ingresos del Estado provienen principalmente de los impuestos, que pueden ser directos (como el impuesto sobre la renta) o indirectos (como el IVA). También se obtienen recursos de la venta de bienes y servicios, la explotación de recursos naturales (como el petróleo o minerales) y, en algunos casos, de la deuda pública.
-Una recaudación eficiente es clave, ya que permite al gobierno financiar sus funciones sin depender excesivamente de préstamos. Además, un buen sistema fiscal busca que los impuestos sean justos, es decir, que quienes tienen más ingresos contribuyan más.
- 		  <img src="https://correobuap-my.sharepoint.com/personal/hm202557949_alm_buap_mx/Documents/P%C3%A1gina%20WEB%20Finanzas%20de%20un%20pa%C3%ADs/foto.4.jpeg"width="50%" style="display: block; margin: auto;">
-			<br/><br/>
-		<h4 id="tema2" style="color:#FFD54F; font-size: 50px;" align="center">Gasto público presupuesto y déficit fiscal</h4>
-		<p style="color:white; font-size: 30px;" align="center">El gasto público es la forma en que el gobierno utiliza los recursos para cubrir necesidades sociales. Este se destina a sectores importantes como educación, salud, seguridad, infraestructura y programas sociales.
-Para organizar estos gastos, el gobierno elabora un presupuesto público anual, donde se establece cuánto dinero se espera recibir y en qué se va a gastar. Este presupuesto permite priorizar necesidades, planificar el desarrollo y evitar el uso innecesario de recursos.
-Sin embargo, cuando el gobierno gasta más de lo que ingresa, se produce un déficit fiscal. Si esto ocurre de manera constante, puede generar inflación, recortes en servicios públicos o aumento de impuestos. Por eso, es fundamental mantener un equilibrio entre ingresos y gastos.
-		<img src="https://correobuap-my.sharepoint.com/personal/hm202557949_alm_buap_mx/Documents/P%C3%A1gina%20WEB%20Finanzas%20de%20un%20pa%C3%ADs/foto3.jpeg" width="50%" style="display: block; margin: auto;">
-			<br/><br/>
-		<h5 id="tema3" style="color:#FFD54F; font-size: 50px;" align="center">Deuda pública y estabilidad económica<h5/>
-		<p style="color:white; font-size: 30px;" aling= "center">Cuando los ingresos no son suficientes, el gobierno puede recurrir a la deuda pública, ya sea interna (dentro del país) o externa (con otros países u organismos internacionales).
-La deuda puede ser útil para financiar proyectos importantes o enfrentar crisis económicas, pero si no se controla, puede volverse un problema serio. Un alto nivel de endeudamiento implica el pago de intereses elevados, lo que reduce los recursos disponibles para otros sectores.
-Además, la estabilidad económica también depende de instituciones como los bancos centrales, que regulan la cantidad de dinero en circulación, controlan la inflación y establecen las tasas de interés. Estas decisiones influyen directamente en el crecimiento económico, el empleo y el poder adquisitivo de la población.
-		<img src="https://correobuap-my.sharepoint.com/personal/hm202557949_alm_buap_mx/Documents/P%C3%A1gina%20WEB%20Finanzas%20de%20un%20pa%C3%ADs/foto2.jpeg"width="50%" style="display: block; margin: auto;">
-			<br/><br/>
-		<h6 id="tema4" style="color:#FFD54F; font-size: 50px;" align="center">Transparencia,rendición de cuentas e importancia<h6/>
-		<p style="color:white; font-size: 30px;" aling= "center">Un aspecto fundamental en el manejo de las finanzas de un país es la transparencia. Los gobiernos deben informar cómo obtienen y en qué gastan los recursos públicos, ya que estos provienen de la ciudadanía. La rendición de cuentas ayuda a evitar la corrupción y a mejorar la confianza en las instituciones.
-Un buen manejo de las finanzas públicas permite el desarrollo económico sostenible, reduce la desigualdad y mejora la calidad de vida de las personas. En cambio, una mala administración puede generar crisis económicas, pobreza y descontento social.
+        <a href="#tema1" style="color:white;">Finanzas públicas y fuentes de ingreso</a><br><br>
 
-		<img src="https://correobuap-my.sharepoint.com/personal/hm202557949_alm_buap_mx/Documents/P%C3%A1gina%20WEB%20Finanzas%20de%20un%20pa%C3%ADs/foto5.jpeg" width="50%" style="display: block; margin: auto;">
-			<br/><br/>
-			<h7 style="color:#FFD54F; font-size: 50px;" align= "center">Conclusión 
-			<p style="color:white; font-size: 30px;" aling "center">En conclusión, manejar las finanzas de un país requiere equilibrio, planeación y responsabilidad. No se trata solo de recaudar y gastar dinero, sino de tomar decisiones estratégicas que beneficien a toda la población a corto y largo plazo.		 
-		<script>
-function abrirMenu() {
-  document.getElementById("menu").style.left = "0";
-}
+        <a href="#tema2" style="color:white;">Gasto público, presupuesto y déficit fiscal</a><br><br>
 
-function cerrarMenu() {
-  document.getElementById("menu").style.left = "-250px";
-}
-</script>
+        <a href="#tema3" style="color:white;">Deuda pública y estabilidad económica</a><br><br>
+
+        <a href="#tema4" style="color:white;">Transparencia y rendición de cuentas</a>
+
+    </div>
+
+    <img src="foto1.jpeg" width="100%">
+
+    <h1 style="color:#FFD54F; font-size:50px;" align="center">
+        Finanzas de un país
+    </h1>
+
+    <h2 style="color:#FFD54F;" align="center">
+        Sebastián José Hoyte Martínez
+    </h2>
+
+    <br><br>
+
+    <h3 id="tema1" style="color:#FFD54F; font-size:50px;" align="center">
+        Finanzas públicas y fuentes de ingreso
+    </h3>
+
+    <p style="color:white; font-size:30px;" align="center">
+
+        Las finanzas públicas son el conjunto de actividades mediante las cuales el gobierno obtiene,
+        administra y utiliza los recursos económicos de un país para satisfacer las necesidades de la población.
+
+        <br><br>
+
+        Los ingresos del Estado provienen principalmente de los impuestos, que pueden ser directos
+        (como el impuesto sobre la renta) o indirectos (como el IVA).
+
+        <br><br>
+
+        También se obtienen recursos de la venta de bienes y servicios, la explotación de recursos
+        naturales y, en algunos casos, de la deuda pública.
+
+        <br><br>
+
+        Una recaudación eficiente es clave, ya que permite al gobierno financiar sus funciones sin depender
+        excesivamente de préstamos.
+
+        <br><br>
+
+        Además, un buen sistema fiscal busca que los impuestos sean justos.
+
+    </p>
+
+    <img src="foto4.jpeg" width="50%" style="display:block; margin:auto;">
+
+    <br><br>
+
+    <h3 id="tema2" style="color:#FFD54F; font-size:50px;" align="center">
+        Gasto público, presupuesto y déficit fiscal
+    </h3>
+
+    <p style="color:white; font-size:30px;" align="center">
+
+        El gasto público es la forma en que el gobierno utiliza los recursos para cubrir necesidades sociales.
+
+        <br><br>
+
+        Este se destina a sectores importantes como educación, salud, seguridad, infraestructura y programas sociales.
+
+        <br><br>
+
+        Para organizar estos gastos, el gobierno elabora un presupuesto público anual.
+
+        <br><br>
+
+        Sin embargo, cuando el gobierno gasta más de lo que ingresa, se produce un déficit fiscal.
+
+        <br><br>
+
+        Por eso, es fundamental mantener un equilibrio entre ingresos y gastos.
+
+    </p>
+
+    <img src="foto3.jpeg" width="50%" style="display:block; margin:auto;">
+
+    <br><br>
+
+    <h3 id="tema3" style="color:#FFD54F; font-size:50px;" align="center">
+        Deuda pública y estabilidad económica
+    </h3>
+
+    <p style="color:white; font-size:30px;" align="center">
+
+        Cuando los ingresos no son suficientes, el gobierno puede recurrir a la deuda pública.
+
+        <br><br>
+
+        La deuda puede ser útil para financiar proyectos importantes o enfrentar crisis económicas.
+
+        <br><br>
+
+        Sin embargo, si no se controla, puede volverse un problema serio.
+
+        <br><br>
+
+        Además, la estabilidad económica también depende de instituciones como los bancos centrales.
+
+    </p>
+
+    <img src="foto2.jpeg" width="50%" style="display:block; margin:auto;">
+
+    <br><br>
+
+    <h3 id="tema4" style="color:#FFD54F; font-size:50px;" align="center">
+        Transparencia, rendición de cuentas e importancia
+    </h3>
+
+    <p style="color:white; font-size:30px;" align="center">
+
+        Un aspecto fundamental en el manejo de las finanzas de un país es la transparencia.
+
+        <br><br>
+
+        Los gobiernos deben informar cómo obtienen y en qué gastan los recursos públicos.
+
+        <br><br>
+
+        La rendición de cuentas ayuda a evitar la corrupción y a mejorar la confianza en las instituciones.
+
+        <br><br>
+
+        Un buen manejo de las finanzas públicas permite el desarrollo económico sostenible.
+
+    </p>
+
+    <img src="foto5.jpeg" width="50%" style="display:block; margin:auto;">
+
+    <br><br>
+
+    <h3 style="color:#FFD54F; font-size:50px;" align="center">
+        Conclusión
+    </h3>
+
+    <p style="color:white; font-size:30px;" align="center">
+
+        En conclusión, manejar las finanzas de un país requiere equilibrio, planeación y responsabilidad.
+
+        <br><br>
+
+        No se trata solo de recaudar y gastar dinero, sino de tomar decisiones estratégicas que beneficien
+        a toda la población a corto y largo plazo.
+
+    </p>
+
+    <script>
+
+        function abrirMenu() {
+            document.getElementById("menu").style.left = "0";
+        }
+
+        function cerrarMenu() {
+            document.getElementById("menu").style.left = "-250px";
+        }
+
+    </script>
 
 </body>
-	</body>
-
-
-
-
 
 </html>
